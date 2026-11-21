@@ -5,9 +5,9 @@ jobs:
   runs-on: ubuntu-latest
   steps: 
    - name: Get code
-     uses: actions/checkout@v7
+     uses: actions/checkout@v6
    - name: Setup NodeJS
-     uses: actions/setup-node@v5
+     uses: actions/setup-node@v4
      with: 
       node-version: 22
    - name: Install Dependencies
@@ -19,9 +19,9 @@ jobs:
   runs-on: ubuntu-latest
   steps: 
    - name: Get code
-     uses: actions/checkout@v7
+     uses: actions/checkout@v6
    - name: Setup NodeJS
-     uses: actions/setup-node@v5
+     uses: actions/setup-node@v4
      with: 
       node-version: 22
    - name: Install Dependencies
